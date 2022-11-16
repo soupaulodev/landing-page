@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    height: 100%;
   }
 
   a {

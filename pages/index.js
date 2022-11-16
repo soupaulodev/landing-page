@@ -4,6 +4,7 @@ import Header from '../src/components/Header';
 import Head from 'next/head';
 import Profile from '../src/components/Profile';
 import Social from '../src/components/Social';
+import Footer from '../src/components/Footer';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,8 @@ export default function HomePage() {
       <Header />
       <Profile />
       <Social />
+      <Footer />
+      
     </React.Fragment>
   )
 }
