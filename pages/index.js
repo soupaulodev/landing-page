@@ -1,11 +1,9 @@
 import React from 'react';
 import { GlobalStyles } from '../styles/globals';
-
-import config from '../landing-page.config.json'
 import Header from '../src/components/Header';
 import Head from 'next/head';
 import Profile from '../src/components/Profile';
-const redes = config.redes
+import Social from '../src/components/Social';
 
 export default function HomePage() {
   return (
@@ -14,12 +12,10 @@ export default function HomePage() {
         <title>Paulo Marques Dev</title>
       </Head>
 
-
-      {/* {console.log(redes)} */}
       <GlobalStyles />
       <Header />
       <Profile />
-
+      <Social />
     </React.Fragment>
   )
 }
