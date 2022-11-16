@@ -16,6 +16,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    background-color: var(--backgroundColor1);
+    color: var(--textColor1);
+
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
