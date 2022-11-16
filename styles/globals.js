@@ -15,14 +15,15 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
+  html, body {
     background-color: var(--backgroundColor1);
     color: var(--textColor1);
 
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    height: 100%;
+
+    height: 100vh;
   }
 
   a {
