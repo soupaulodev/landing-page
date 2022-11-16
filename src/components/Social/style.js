@@ -5,7 +5,7 @@ export const Container = styled.section`
     flex-direction: column;
     align-items: center;
     margin: 2.5rem auto;
-    width: 60vw;
+    width: 62vw;
 
     a {
         background: var(--blue);
