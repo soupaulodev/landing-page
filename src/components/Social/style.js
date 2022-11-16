@@ -24,4 +24,16 @@ export const Container = styled.section`
             filter: brightness(0.9);
         }
     }
+
+    @media screen and (min-width: 1256px) {
+        margin-top: 10vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 1rem;
+
+        a {
+            margin: 0;
+        }
+    }
 `;
