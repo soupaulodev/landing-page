@@ -17,10 +17,6 @@ export default function Document() {
 
           <meta name="description" content="Paulo Marques Dev - Landing page" />
           <Link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <Link
             rel="icon"
             href="../public/favicon.ico"
           />
