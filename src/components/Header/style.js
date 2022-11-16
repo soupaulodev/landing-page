@@ -12,5 +12,11 @@ export const Container = styled.header`
     .img {
         width: 2.6rem;
         height: auto;
+
+        transition: transform 0.5s;
+
+        &:hover {
+            transform: rotate(90deg);
+        }
     }
 `;
