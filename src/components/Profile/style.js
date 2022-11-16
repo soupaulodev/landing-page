@@ -6,20 +6,20 @@ export const Container = styled.section`
     align-items: center;
 
     img {
-        margin-top: 4rem;
+        margin-top: 3.5rem;
         width: 110px;
         height: auto;
         border-radius: 50%;
         padding: 2px;
         border: 1px solid var(--blue);
-        margin-bottom: 1.5rem
+        margin-bottom: 1.3rem
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 0.2rem
+        margin-bottom: 0.1rem
     }
 
     h2 {
