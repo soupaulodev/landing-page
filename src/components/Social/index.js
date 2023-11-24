@@ -1,13 +1,26 @@
 import { Container } from "./style";
 import config from '../../../landing-page.config.json'
 const redesList = config.redes
+import linkedinImg from '../../assets/image/logo.png';
+import ghImg from '../../assets/image/logo.png';
+import igImg from '../../assets/image/logo.png';
+import downloadImg from '../../assets/image/logo.png';
 
 export default function Social() {
     return (
         <Container>
-            {redesList.map((rede) => {
-                return <a key={rede.name} href={rede.link} target="_blank" rel="noreferrer">{rede.name}</a>
-            })}
+            <a key={rede.name} href={rede.link} target="_blank" rel="noreferrer">
+                <Image className="ico" src={linkedinImg} alt="icone linkedin" responsive />
+            </a>
+            <a key={rede.name} href={rede.link} target="_blank" rel="noreferrer">
+                <Image className="ico" src={ghImg} alt="icone github" responsive />
+            </a>
+            <a key={rede.name} href={rede.link} target="_blank" rel="noreferrer">
+                <Image className="ico" src={igImg} alt="icone instagram" responsive />
+            </a>
+            <a key={rede.name} href={rede.link} target="_blank" rel="noreferrer">
+                <Image className="ico" src={downloadImg} alt="icone de download do curriculo" responsive />
+            </a>
         </Container>
     );
 };
