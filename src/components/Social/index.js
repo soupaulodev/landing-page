@@ -1,6 +1,7 @@
 import { Container } from "./style";
 import config from '../../../landing-page.config.json'
 const redesList = config.redes
+import Image from "next/image";
 import linkedinImg from '../../assets/image/logo.svg';
 import ghImg from '../../assets/image/logo.svg';
 import igImg from '../../assets/image/logo.svg';
