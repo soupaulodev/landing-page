@@ -1,10 +1,10 @@
 import { Container } from "./style";
 import config from '../../../landing-page.config.json'
 const redesList = config.redes
-import linkedinImg from '../../assets/image/logo.png';
-import ghImg from '../../assets/image/logo.png';
-import igImg from '../../assets/image/logo.png';
-import downloadImg from '../../assets/image/logo.png';
+import linkedinImg from '../../assets/image/logo.svg';
+import ghImg from '../../assets/image/logo.svg';
+import igImg from '../../assets/image/logo.svg';
+import downloadImg from '../../assets/image/logo.svg';
 
 export default function Social() {
     return (
