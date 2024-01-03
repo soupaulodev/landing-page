@@ -7,7 +7,7 @@ export default function Profile() {
         <Container>
             <img src="https://avatars.githubusercontent.com/u/78260151?v=4" alt="Avatar do paulo marques" />
             <div>
-                <h1>Paulo Marques</h1>
+                <h1>Paulo Marques (Copiloto)</h1>
                 <h2>Developer</h2>
             </div>
         </Container>
