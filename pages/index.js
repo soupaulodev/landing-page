@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <React.Fragment>
       <Head>
-        <title>Paulo Marques Dev</title>
+        <title>Paulo Marques</title>
       </Head>
 
       <GlobalStyles />
