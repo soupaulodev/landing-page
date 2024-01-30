@@ -15,7 +15,7 @@ export default function Document() {
             crossorigin
           />
 
-          <meta name="description" content="Paulo Marques Dev - Landing page" />
+          <meta name="description" content="Paulo Marques" />
           <Link
             rel="icon"
             href="../public/favicon.ico"
