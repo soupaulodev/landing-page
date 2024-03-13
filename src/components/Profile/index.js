@@ -8,7 +8,7 @@ export default function Profile() {
             <img src="https://avatars.githubusercontent.com/u/78260151?v=4" alt="Avatar do paulo marques" />
             <div>
                 <h1>Paulo Marques</h1>
-                <h2>Full Stack Developer</h2>
+                <h2>Software Engineer</h2>
             </div>
         </Container>
     );
