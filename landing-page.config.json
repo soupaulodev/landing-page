@@ -2,18 +2,22 @@
     "redes": [
         {
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/paulomarquesdev/"
+            "link": "https://www.linkedin.com/in/soupaulodev/"
         },
         {
             "name": "GitHub",
-            "link": "https://github.com/paulomarquesdev/"
+            "link": "https://github.com/soupaulodev/"
         },
         {
             "name": "Instagram",
-            "link": "https://www.instagram.com/soupaulort/"
+            "link": "https://www.instagram.com/soupaulodev/"
         },
         {
-            "name": "Currículo",
+            "name": "Medium",
+            "link": "https://soupaulodev.medium.com/"
+        },
+        {
+            "name": "Curriculum",
             "link": "https://mega.nz/folder/KwcwyCpZ#Gy1XJeNMg1oSqxzrJr0ICg"
         }
     ]
